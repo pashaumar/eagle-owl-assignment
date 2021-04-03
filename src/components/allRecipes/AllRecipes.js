@@ -56,7 +56,7 @@ function AllRecipes() {
       };
     }
   };
-  console.log("gjh");
+
   return (
     <div className={styles.container}>
       {results === null ? (
