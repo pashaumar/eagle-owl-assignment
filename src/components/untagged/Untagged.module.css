@@ -1,0 +1,54 @@
+.container {
+  width: 95%;
+  margin: 10px auto;
+}
+.spinner {
+  width: 100%;
+  text-align: center;
+}
+.spinner img {
+  width: 50%;
+}
+.table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.table tbody {
+  width: 100%;
+}
+tr {
+  height: 50px;
+}
+tr:first-child {
+  background-color: rgba(84, 160, 255, 1);
+}
+tr:nth-child(even) {
+  background-color: rgba(200, 214, 229, 1);
+}
+tr th {
+  color: white;
+}
+td {
+  text-align: center;
+}
+.pagination {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  margin: 20px auto;
+}
+.pagination button:first-child,
+.pagination button:last-child {
+  cursor: pointer;
+  background: rgba(84, 160, 255, 1);
+  border: 1px solid rgba(46, 134, 222, 1);
+  color: white;
+  outline: none;
+  width: 50px;
+  padding: 0.3rem 0;
+  margin: 0 10px;
+}
+.NoDataFound {
+  font-size: 2rem;
+  text-align: center;
+}

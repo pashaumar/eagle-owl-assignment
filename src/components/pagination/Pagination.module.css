@@ -1,0 +1,20 @@
+.activePage {
+  color: rgba(84, 160, 255, 1);
+  border: 1px solid rgba(84, 160, 255, 1);
+  background-color: white;
+  cursor: pointer;
+  outline: none;
+  width: 50px;
+  padding: 0.3rem 0;
+  margin: 0 10px;
+}
+.inactivePage {
+  outline: none;
+  width: 50px;
+  padding: 0.3rem 0;
+  background: rgba(84, 160, 255, 1);
+  border: 1px solid rgba(46, 134, 222, 1);
+  color: white;
+  cursor: pointer;
+  margin: 0 10px;
+}

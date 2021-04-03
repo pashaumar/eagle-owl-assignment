@@ -1,0 +1,12 @@
+.tableRow {
+  width: 100%;
+}
+.name {
+  width: 20%;
+}
+.lastUpdated {
+  width: 15%;
+}
+.tableRow:hover {
+  background-color: rgba(247, 241, 227, 1);
+}
